@@ -1,4 +1,5 @@
 require 'rest-client'
+require 'thread'
 threads = []
 mutex = Mutex.new
 2.times do

@@ -1,3 +1,5 @@
+require 'thread'
+
 count = 0
 threads = []
 
