@@ -1,3 +1,5 @@
+require 'thread'
+
 threads = []
 count = 0
 mutex = Mutex.new
